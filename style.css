@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+div,
+nav {
+    background-color: rgb(160, 231, 231);
+    border: 5px solid white;
+    font-family: "Times New Roman", monotype;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    padding: 4px;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(98, 177, 177);
+}
+
+#название {
+    background-color: rgb(98, 177, 177);
+    border: none;
+    height: 200px;
+    text-align: left;
+}
+
+#logo {
+    float: left;
+    height: 100px;
+    margin: 10px;
+    width: 150px;
+}
+
+#содержимое {
+    background-color: white;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid rgb(86, 86, 86);
+    text-align: center;
+    width: 300px;
+}
+
+th,
+td {
+    border: 1px solid grey;
+    width: auto;
+}
+
+tr:nth-child(2n) {
+    background: rgb(192, 190, 190);
+}
+footer {
+    background-color: rgb(98, 177, 177);
+    text-align: left;
+    width: 100%;
+}
